@@ -1,0 +1,16 @@
+/* CSS Reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/*Background color */
+body {
+  background-color: #f7ede2;
+}
+.header {
+  padding: 20px;
+  font-family: "Urbanist", sans-serif, "Lucida Sans", Arial, sans-serif;
+  background-color: #f5cac3;
+  color: #ffffff;
+}
