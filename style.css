@@ -4,13 +4,51 @@
   padding: 0;
   margin: 0;
 }
-/*Background color */
-body {
-  background-color: #f7ede2;
+/* My Variables */
+:root {
+  --main-font-style: "Urbanist", sans-serif;
 }
+/* Background color */
+body {
+  background-color: #f5cac3;
+}
+/* NavBar Styling */
 .header {
   padding: 20px;
-  font-family: "Urbanist", sans-serif, "Lucida Sans", Arial, sans-serif;
-  background-color: #f5cac3;
+  font-family: var(--main-font-style);
+  background-color: #f7ede2;
   color: #ffffff;
+}
+.header h1 {
+  display: inline-block;
+  font-size: 50px;
+  color: #f28482;
+}
+
+.header h1 .last-name {
+  color: #f6bd60;
+}
+.header nav {
+  padding-top: 20px;
+  margin-right: 15px;
+  float: right;
+  font-family: var(--main-font-style);
+  font-size: 25px;
+}
+
+.header nav ul {
+  list-style-type: none;
+}
+
+.header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+a {
+  color: #f28482;
+  text-decoration: underline;
+}
+a:hover {
+  color: #f6bd60;
 }
