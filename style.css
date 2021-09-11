@@ -24,9 +24,6 @@ body {
   color: #f28482;
 }
 
-.animated-header h1 .last-name {
-  color: #84a59d;
-}
 .animated-header nav {
   padding-top: 20px;
   margin-right: 15px;
@@ -74,15 +71,18 @@ a:hover {
     background-position: 0% 50%;
   }
 }
+/* Columns and rows for main sections */
 .column {
   float: left;
   width: 33.33%;
   padding: 10px;
 }
 .row:after {
+  content: "";
   display: table;
   clear: both;
 }
+/* About Me section */
 .aboutMe {
   margin-top: 35px;
   margin-bottom: 20px;
@@ -94,48 +94,93 @@ a:hover {
 }
 h2 {
   color: #84a59d;
-  font-size: 50px;
+  font-size: 55px;
 }
+img {
+  margin-left: 150px;
+}
+p {
+  color: #84a59d;
+}
+/* Work section */
 .work {
   margin-top: 35px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   padding: 50px;
-  height: 300px;
+  height: 600px;
   font-family: var(--main-font-style);
   background-color: #f5cac3;
   color: #ffffff;
 }
 h3 {
   color: #84a59d;
-  font-size: 50px;
+  font-size: 60px;
 }
 .work img {
   height: 200px;
   width: 300px;
 }
-.contact {
-  margin-top: 35px;
-  margin-bottom: 100px;
-  padding: 50px;
-  height: 300px;
-  font-family: var(--main-font-style);
-  background-color: #f5cac3;
-  color: #ffffff;
-}
-h4 {
+img:hover {
   color: #84a59d;
-  font-size: 50px;
 }
+.column4 {
+  display: none;
+}
+
+/* Resume section */
 .resume {
   margin-top: 35px;
-  margin-bottom: 100px;
-  padding: 50px;
-  height: 300px;
+  margin-bottom: 35px;
+  padding: 20px;
+  height: 100px;
   font-family: var(--main-font-style);
   background-color: #f5cac3;
   color: #ffffff;
 }
 h5 {
   color: #84a59d;
-  font-size: 50px;
+  font-size: 55px;
 }
+a #drive-link {
+  margin-top: 50px;
+}
+
+/* Contact section */
+.contact {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  padding: 20px;
+  height: 100px;
+  font-family: var(--main-font-style);
+  background-color: #f5cac3;
+  color: #ffffff;
+}
+h4 {
+  color: #84a59d;
+  font-size: 55px;
+}
+/* Media Query */
+/* Small devices (landscape phones, 576px and up)*/
+/* @media (min-width: 576px) { 
+    .animated-header{
+        text-align: center;
+    }
+    .animated-header nav {
+        flex-direction: column;
+    }
+    .animated-header nav ul {
+        flex-direction: column;
+    } */
+
+/* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) {
+    .animated-header{
+        text-align:center;
+    }
+    .animated-header nav {
+        flex-direction: column;
+    }
+    .animated-header nav ul {
+        flex-direction: column;
+    }
+} */
