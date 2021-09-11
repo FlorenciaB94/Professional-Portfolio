@@ -2,7 +2,7 @@
 
 As a student, I want to deploy a digital portfolio of work samples, so that I can showcase my work and provide contact information as well as my resume, to present to potential employers.
 
-![Page look and functionality](Portfolio.gif)
+![Page look and functionality](.assets/Portfolio.gif)
 
 ## Installation
 
@@ -11,11 +11,11 @@ To look at the project, follow GitHub's instructions on how to clone a repositor
 
 # Credits
 
-[Coolors](https://coolors.co/)"Coolors"
+[Coolors](https://coolors.co/) Coolors
 
-[Google Fonts](https://fonts.google.com/)"Google Fonts"
+[Google Fonts](https://fonts.google.com/) Google Fonts
 
-[W3 Schools](https://w3schools.com/css/)
+[W3 Schools](https://w3schools.com/css/) W3 Schools
 
 ## License
 
