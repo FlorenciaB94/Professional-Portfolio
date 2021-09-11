@@ -4,6 +4,8 @@ As a student, I want to deploy a digital portfolio of work samples, so that I ca
 
 ![Page look and functionality](assets/Portfolio.gif)
 
+Deployed Application: [Professional Portfolio](https://florenciab94.github.io/Professional-Portfolio/)
+
 ## Installation
 
 To look at the project, follow GitHub's instructions on how to clone a repository to your computer here:
@@ -11,11 +13,11 @@ To look at the project, follow GitHub's instructions on how to clone a repositor
 
 # Credits
 
-[Coolors](https://coolors.co/) Coolors
+[Coolors](https://coolors.co/)
 
-[Google Fonts](https://fonts.google.com/) Google Fonts
+[Google Fonts](https://fonts.google.com/)
 
-[W3 Schools](https://w3schools.com/css/) W3 Schools
+[W3 Schools](https://w3schools.com/css/)
 
 ## License
 
