@@ -2,7 +2,7 @@
 
 As a student, I want to deploy a digital portfolio of work samples, so that I can showcase my work and provide contact information as well as my resume, to present to potential employers.
 
-![Page look and functionality](.assets/Portfolio.gif)
+![Page look and functionality](assets/Portfolio.gif)
 
 ## Installation
 
